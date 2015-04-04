@@ -1,17 +1,16 @@
 Pod::Spec.new do |s|
-  s.name            = 'libPusher'
+  s.name            = 'libPusher-WebRTC'
   s.version         = '1.6'
   s.license         = 'MIT'
   s.summary         = 'An Objective-C client for the Pusher.com service'
-  s.homepage        = 'https://github.com/lukeredpath/libPusher'
-  s.author          = 'Luke Redpath'
-  s.source          = { :git => 'https://github.com/lukeredpath/libPusher.git', :tag => 'v1.6' }
+  s.homepage        = 'https://github.com/Bill-SnowWolf/libPusher.git'
+  s.author          = 'Bill-SnowWolf'
+  s.source          = { :git => 'https://github.com/Bill-SnowWolf/libPusher.git', :tag => 'v1.6' }
   s.requires_arc    = true
   s.header_dir      = 'Pusher'
   s.default_subspec = 'Core'
 
-  s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.8'
+  s.ios.deployment_target = '7.0'
   
   s.subspec 'Core' do |subspec|
     subspec.dependency 'SocketRocket', "0.3.1-beta2"

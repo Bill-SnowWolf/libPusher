@@ -4,7 +4,7 @@
 # unless you want to install new development dependencies as the Pods directory
 # is part of the source tree.
 #
-platform :ios, :deployment_target => '5.0'
+platform :ios, :deployment_target => '7.0'
 
 inhibit_all_warnings!
 
